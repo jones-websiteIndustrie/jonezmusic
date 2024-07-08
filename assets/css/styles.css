@@ -615,8 +615,12 @@ portfolio__description{
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (max-width: 350px)
+@media screen and (max-width: 600px)
 {
+  .contact__container-elements{
+    flex-direction: column;
+  }
+
   .container{
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -645,7 +649,7 @@ portfolio__description{
 }
 
 /* For medium devices */
-@media screen and (min-width: 568px){
+@media screen and (min-width: 601px){
   .home__content{
     grid-template-columns: max-content 1fr 1fr;
   }
