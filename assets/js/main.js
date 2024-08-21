@@ -1,5 +1,5 @@
 document.getElementById('send-booking').addEventListener('click', function() {
-    // Get form values
+    // Get form values (EmailJS)
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const eventTitle = document.getElementById('event-title').value;
